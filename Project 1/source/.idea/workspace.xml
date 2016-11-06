@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e3e23fa-7852-4a92-b66c-944b512cf98e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/final/cross_validation.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation_deg_1_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation_deg_1_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation_deg_2_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation_deg_2_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v25/cross_validation_deg_2_lda_100000-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation_deg_3_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation_deg_3_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation_deg_4_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation_deg_4_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation_deg_5_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation_deg_5_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation_deg_6_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation_deg_6_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v05/cross_validation_deg_7_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/v22/cross_validation_deg_7_lda_100-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/final/crossval.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/final/crossval.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/final/crossvalidation.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/graphs/final/crossvalidation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic_functions/cost.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic_functions/implementations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../to_submit/prediction_RefSimpleModel2J.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../to_submit/prediction_RefSimpleModelJ.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/runlogs/result_log.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../logs/runlogs/run_log_local_v01_6features.txt" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions\Build_poly_cross_terms.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions\least_squares.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions\least_squares_GD.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions\least_squares_SGD.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions\logistic_regression.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions\reg_logistic_regression.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions\ridge_regression.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\main.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\complex_model_j.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_2_j.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_3_j.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_4_j.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_20.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_20_test.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_30.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_30_test.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_6.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_6_deep.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_6_mean.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_6_real.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_6_wide.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_6_wide_test.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_8.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_j_6.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_c_j_8.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_cj_30_test.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_j.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_10_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_11_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_1_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_2_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_3_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_4_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_5_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_6_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_7_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_8_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_deg_9_lda_100-0.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\dataEx3.csv" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\logistic_regression_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\reg_logistic_regression_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\regression_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\test_basic_functions.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\test_helpers.py" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\dummy_model.py" afterPath="$PROJECT_DIR$/models/simple_model.py" />
+      <change type="MOVED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\ref_simple_model_cj_32.py" afterPath="$PROJECT_DIR$/models/complex_model.py" />
+      <change type="MOVED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\__init__.py" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="MOVED" beforePath="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\tests\cv_ridge_test\cross_validation_ridge_test.py" afterPath="$PROJECT_DIR$/cross_validation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic_functions/build_poly.py" afterPath="$PROJECT_DIR$/basic_functions/build_poly.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model_class.py" afterPath="$PROJECT_DIR$/models/model_class.py" />
+    </list>
+    <ignored path="source.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="source" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="model_class.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/model_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="e#122#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cross_validation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cross_validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.637765">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+              <folding>
+                <element signature="e#123#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build_poly.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic_functions/build_poly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="implementations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic_functions/implementations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="complex_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/complex_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding>
+                <element signature="e#122#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_datasource.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python/Python35/Lib/site-packages/numpy/lib/_datasource.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="500" column="0" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/simple_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/basic_functions/compute_gradient.py" />
+        <option value="$PROJECT_DIR$/basic_functions/sigmoid.py" />
+        <option value="$PROJECT_DIR$/basic_functions/logistic_regression.py" />
+        <option value="$PROJECT_DIR$/basic_functions/least_squares_SGD.py" />
+        <option value="$PROJECT_DIR$/basic_functions/least_squares.py" />
+        <option value="$PROJECT_DIR$/basic_functions/least_squares_GD.py" />
+        <option value="$PROJECT_DIR$/basic_functions/ridge_regression.py" />
+        <option value="$PROJECT_DIR$/basic_functions/__init__.py" />
+        <option value="$PROJECT_DIR$/basic_functions/standardize.py" />
+        <option value="$PROJECT_DIR$/basic_functions/Build_poly_cross_terms.ipynb" />
+        <option value="$PROJECT_DIR$/helpers.py" />
+        <option value="$PROJECT_DIR$/proj1_helpers.py" />
+        <option value="$PROJECT_DIR$/models/prepare_data.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/models/j_simple_model.py" />
+        <option value="$PROJECT_DIR$/models/complex_model_j.py" />
+        <option value="$PROJECT_DIR$/crossval_test.py" />
+        <option value="$PROJECT_DIR$/models/simple_model_j.py" />
+        <option value="$PROJECT_DIR$/models/dummy_model.py" />
+        <option value="$PROJECT_DIR$/models/ref_simple_model_j.py" />
+        <option value="$PROJECT_DIR$/models/ref_simple_model_2_j.py" />
+        <option value="$PROJECT_DIR$/plots.py" />
+        <option value="$PROJECT_DIR$/cross_validation.py" />
+        <option value="$PROJECT_DIR$/models/ref_simple_model_3_j.py" />
+        <option value="$PROJECT_DIR$/models/ref_simple_model_4_j.py" />
+        <option value="$PROJECT_DIR$/models/ref_simple_model_cj_30_test.py" />
+        <option value="$PROJECT_DIR$/models/ref_simple_model_cj_32.py" />
+        <option value="$PROJECT_DIR$/models/ref_simple_model_cj_32_2.py" />
+        <option value="$PROJECT_DIR$/basic_functions/build_poly.py" />
+        <option value="$PROJECT_DIR$/basic_functions/reg_logistic_regression.py" />
+        <option value="$PROJECT_DIR$/models/simple_model_cj_32.py" />
+        <option value="$PROJECT_DIR$/models/simple_model.py" />
+        <option value="$PROJECT_DIR$/tests/test_basic_functions.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/models/model_class.py" />
+        <option value="$PROJECT_DIR$/models/complex_model.py" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../other/AL Projects/sample_label_manipulator" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models" />
+      <recent name="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source" />
+      <recent name="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\basic_functions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration default="false" name="ref_simple_model_cj_32" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/ref_simple_model_cj_32.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ref_simple_model_cj_32_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/ref_simple_model_cj_32_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple_model_cj_32" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="C:\Users\Koro\Desktop\EPFL\MA3\PCML\PCML16_Project1\source\models\complex_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestMain.test_standardize" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_basic_functions.py" />
+      <option name="CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="test_standardize" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="source" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.ref_simple_model_cj_32" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ref_simple_model_cj_32_2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.simple_model_cj_32" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestMain.test_standardize" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.run" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestMain.test_standardize" />
+        <item index="2" class="java.lang.String" itemvalue="Python.simple_model_cj_32" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ref_simple_model_cj_32_2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ref_simple_model_cj_32" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e3e23fa-7852-4a92-b66c-944b512cf98e" name="Default" comment="" />
+      <created>1477126139141</created>
+      <option name="number" value="Default" />
+      <updated>1477126139141</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25425532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37152392" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29048085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37911463" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3214683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37152392" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29048085" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37911463" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25425532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3214683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/models/model_class.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_basic_functions.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="79" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#123#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_functions/build_poly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Project1_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_functions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/basic_functions/reg_logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8611111">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/IPython/utils/traitlets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05371248">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj1_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33295062">
+          <caret line="4322" column="4" selection-start-line="4322" selection-start-column="4" selection-end-line="4322" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crossval_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_functions/sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/numpy/lib/type_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="452" column="0" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/sklearn/preprocessing/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1257" column="0" selection-start-line="1257" selection-start-column="0" selection-end-line="1257" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="493" column="0" selection-start-line="493" selection-start-column="0" selection-end-line="493" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_functions/standardize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_functions/build_poly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/simple_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35/Lib/site-packages/numpy/lib/_datasource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="500" column="0" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#122#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_functions/implementations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/complex_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.637765">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding>
+            <element signature="e#123#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
